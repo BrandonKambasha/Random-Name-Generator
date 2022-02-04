@@ -4,7 +4,8 @@ function go()
     {
         var name = document.getElementById('entry').value;
         array.push(name);
-        document.getElementById("result").innerHTML=array;
+        document.getElementById("result").innerHTML=array.join("<br>");
+        name = "";
     }
 
 function submit()
