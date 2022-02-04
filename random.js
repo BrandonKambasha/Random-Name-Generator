@@ -11,5 +11,5 @@ function go()
 function submit()
     {
         const random = Math.floor(Math.random()*array.length);
-        document.getElementById("winner").innerHTML=array[random];
+        document.getElementById("winner").innerHTML="The Winner is: "+array[random];
     }    
