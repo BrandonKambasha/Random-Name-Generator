@@ -1,6 +1,6 @@
 let array = [];
 
-function add()
+function go()
     {
         var name = document.getElementById('entry').value;
         array.push(name);
